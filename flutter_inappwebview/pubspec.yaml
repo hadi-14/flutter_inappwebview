@@ -44,6 +44,11 @@ dependencies:
       url: https://github.com/Shoptagr/flutter_inappwebview.git
       ref: master
       path: flutter_inappwebview_web
+  flutter_inappwebview_windows:
+    git:
+      url: https://github.com/Shoptagr/flutter_inappwebview.git
+      ref: master
+      path: flutter_inappwebview_windows
 
 dev_dependencies:
   flutter_test:
@@ -70,6 +75,8 @@ flutter:
         default_package: flutter_inappwebview_macos
       web:
         default_package: flutter_inappwebview_web
+      windows:
+        default_package: flutter_inappwebview_windows
 
   assets:
     - packages/flutter_inappwebview/assets/t_rex_runner/t-rex.html
